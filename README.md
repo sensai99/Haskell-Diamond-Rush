@@ -78,10 +78,6 @@
   hlint <hs-filename>
 ```
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License.<br>
-  See the https://github.com/IITH-SBJoshi/haskell-5/blob/master/LICENSE file for details.</p>
-
 <p>Images required for displaying the levels, mazes etc are downloaded from open source network.<br>
   Links of those images are as follows.<br>
   Human image:<br>
