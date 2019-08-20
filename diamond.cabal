@@ -1,0 +1,65 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 2b43229f34c9daa353f650c4ad00c189a717c49f1365e71131ffffb9f0e18718
+
+name:           diamond
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/diamond#readme>
+homepage:       https://github.com/githubuser/diamond#readme
+bug-reports:    https://github.com/githubuser/diamond/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2019 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/diamond
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_diamond
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , gloss
+  default-language: Haskell2010
+
+executable diamond-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_diamond
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , diamond
+    , gloss
+  default-language: Haskell2010
+
+test-suite diamond-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_diamond
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , diamond
+    , gloss
+  default-language: Haskell2010
