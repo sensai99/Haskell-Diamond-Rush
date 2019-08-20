@@ -1,7 +1,3 @@
-[![CircleCI](https://circleci.com/gh/IITH-SBJoshi/haskell-5.svg?style=svg)](https://circleci.com/gh/IITH-SBJoshi/haskell-5)
-# diamond
-[![CircleCI](https://circleci.com/gh/IITH-SBJoshi/haskell-5.svg?style=svg&circle-token=15af810b9ba21f2fe125c99c893b1529a5754784)](https://circleci.com/gh/IITH-SBJoshi/haskell-5)
-
 <h1>DIAMOND RUSH</h1>
 <p>This is a single player game where the user represents a character. The character has to pick up diamonds and solve puzzles. The character wants to collect all the diamonds from temple. This game has multiple stages(worlds), each with multiple levels including a Bonus stage. Each stage in the game has own specific puzzles</p>
 
